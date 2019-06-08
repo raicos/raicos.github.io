@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* line 1, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 6, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+body {
+  font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif; }
+
+/* line 10, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+.title {
+  text-align: center;
+  font-size: 50px; }
+
+/* line 15, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+#top {
+  height: 100vh;
+  width: 100vw;
+  background: url(../img/top.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  /* line 27, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #top h1 {
+    color: #fff;
+    font-size: 13vw; }
+  /* line 33, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #top p {
+    color: #fff;
+    font-size: 3vw; }
+
+/* line 40, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+#about {
+  margin: 5vh 10vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  /* line 48, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #about .item p {
+    margin: 20px; }
+  /* line 53, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #about h3 {
+    margin-top: 30px;
+    text-align: center; }
+  /* line 58, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #about p {
+    margin: 10px;
+    text-align: center; }
+
+/* line 64, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+#creation {
+  width: 100vw;
+  height: 70vh;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative; }
+  /* line 78, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #creation #particles-js {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    z-index: 0; }
+  /* line 91, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #creation .item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative; }
+    /* line 99, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+    #creation .item .card {
+      margin: 20px;
+      height: 300px;
+      width: 200px;
+      background-color: #eee;
+      border-radius: 20px;
+      filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3)); }
+      /* line 110, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+      #creation .item .card a {
+        text-decoration: none; }
+      /* line 114, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+      #creation .item .card #card-title {
+        margin: 5px;
+        font-size: 20px;
+        text-align: center; }
+      /* line 121, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+      #creation .item .card #description {
+        margin: 15px;
+        font-size: 10px;
+        text-align: center; }
+
+/* line 132, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+#contact {
+  width: 100vw;
+  height: 20vh;
+  margin: 5vh auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  /* line 143, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #contact .item {
+    width: 50vw;
+    margin: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  /* line 153, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #contact #github-icon {
+    color: #4183c4; }
+  /* line 157, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #contact #twitter-icon {
+    color: #55acee; }
+  /* line 161, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #contact #facebook-icon {
+    color: #3b5998; }
+  /* line 165, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+  #contact #github-icon:hover,
+  #contact #twitter-icon:hover,
+  #contact #facebook-icon:hover {
+    animation: huwahuwa .5s infinite; }
+
+@keyframes huwahuwa {
+  0% {
+    transform: translate(0px, 0px); }
+  50% {
+    transform: translate(0px, -2px); } }
+
+/* line 182, /Users/k15046kk/git/raicos.github.io/css/stylesheet.scss */
+footer {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  background: rgba(0, 191, 255, 0.5); }
+
+/*# sourceMappingURL=stylesheet.css.map */
